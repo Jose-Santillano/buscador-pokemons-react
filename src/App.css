@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
+html{
+  height: 100vh;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(14, 13, 13);
+}
+
+.container{
+  margin: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.navigation{
+  padding: 1em;
+}
+.navigation h1{
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.navigation input, .navigation button{
+  padding: 1em;
+  border: 0;
+  outline: 0;
+}
+.navigation input{
+  width: 60%;
+  color: rgb(138, 135, 135);
+  border-radius: 20px 0px 0px 20px;
+  background-color: rgb(228, 228, 228);
+}
+.navigation button{
+  width: 20%;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 0px 20px 20px 0px;
+  background-color: rgb(197, 185, 9);
+}
+.content{
+  color: rgb(141, 141, 141);
+}
+.content figure > img{
+  width: 10em;
+}
+.content figure > figcaption{
+  color: white;
+}
